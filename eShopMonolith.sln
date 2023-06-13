@@ -6,6 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E18085C0-D587-4576-ADF3-FE73AD3656F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution files", "solution files", "{CAEA0D22-3009-4238-947A-E73BC08582B4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F4061E1-EF5D-488E-9681-93AD423A71CE}"
 EndProject
@@ -25,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "src\API\API.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Shared\Shared.csproj", "{0EF3FDB9-F40D-48A4-9DB8-5178F7B58530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_tests", "tests\API_tests\API_tests.csproj", "{10A2568F-28BE-4D40-9230-2ACB08711A4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +47,10 @@ Global
 		{0EF3FDB9-F40D-48A4-9DB8-5178F7B58530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF3FDB9-F40D-48A4-9DB8-5178F7B58530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF3FDB9-F40D-48A4-9DB8-5178F7B58530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A2568F-28BE-4D40-9230-2ACB08711A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A2568F-28BE-4D40-9230-2ACB08711A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A2568F-28BE-4D40-9230-2ACB08711A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A2568F-28BE-4D40-9230-2ACB08711A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +64,7 @@ Global
 		{10249E94-C7C6-4C1A-BA4C-6F4924A93D71} = {E18085C0-D587-4576-ADF3-FE73AD3656F6}
 		{2E8C52E2-11B4-4DAB-8402-D9C3F4ABEF97} = {E18085C0-D587-4576-ADF3-FE73AD3656F6}
 		{0EF3FDB9-F40D-48A4-9DB8-5178F7B58530} = {B4AC6E15-7EB2-4E1F-8E8B-51780B0CC4F1}
+		{10A2568F-28BE-4D40-9230-2ACB08711A4D} = {3F4061E1-EF5D-488E-9681-93AD423A71CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A08FACEF-1F5A-4D76-9DB4-3F421BD0155C}
